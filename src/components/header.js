@@ -1,12 +1,20 @@
 // Import Libraries for making a Component
 
 import React from 'react';
-import { Text } from 'react-native'
+import { Text } from 'react-native';
 
 // Make a Component
 
 const Header = () => {
-  return <Text>Albums!</Text>;
+  const { textStyle } = styles;
+
+  return <Text style={textStyle}>Albums!</Text>;
+};
+
+const styles = {
+  textStyle: {
+    fontSize: 50
+  }
 };
 
 // Make the Component available to other parts of the app
