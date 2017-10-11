@@ -1,0 +1,5 @@
+{
+  "extends": "rallycoding"
+}
+
+# Tells Eslint to go and find an installed dependency called rallycoding
