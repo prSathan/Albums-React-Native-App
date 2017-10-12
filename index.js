@@ -7,7 +7,7 @@ import Header from './src/components/header';
 // Create a Component - an object that produces something that can be placed on the screen
 
 const App = () => (
-    <Header />
+    <Header headerText={'Album'}/>
   );
 
 // Render it to the device
