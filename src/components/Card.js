@@ -27,3 +27,5 @@ const styles = {
 };
 
 export default Card;
+
+// prop.children - how a parent component renders a child component
